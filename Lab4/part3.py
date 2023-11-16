@@ -9,7 +9,7 @@ print(summarize(text, ratio=1))
 
 print("Keywords:\n",keywords.keywords(text))
 # to print the top 3 keywords
-print("Top 3 Keywords:\n",keywords.keywords(text,words=15))
+print("Top 3 Keywords:\n",keywords.keywords(text,words=3))
 
 
 
