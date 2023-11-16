@@ -11,7 +11,7 @@ from sklearn.datasets import load_files
 from sklearn.naive_bayes import MultinomialNB
 from pprint import pprint
 
-moviedir = "Lab4/movie_reviews"
+moviedir = "/Users/sebastianlindgren/Documents/Fork_Projects/TNM108/Lab4/movie_reviews"
 
 # loading all files. 
 movie = load_files(moviedir, shuffle=True)
@@ -117,7 +117,6 @@ sklearn.metrics.accuracy_score(y_test, y_pred)
 
 # Making the Confusion Matrix
 cm = confusion_matrix(y_test, y_pred)
-cm
 
 # very short and fake movie reviews
 reviews_new = ['This movie was excellent', 'Absolute joy ride', 
